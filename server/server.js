@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:5173/'], // Be cautious with this in production
+  origin: ['https://66e31f2dc272993f3c566e3f--aesthetic-gnome-5d6315.netlify.app/'], // Be cautious with this in production
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
